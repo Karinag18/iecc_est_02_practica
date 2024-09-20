@@ -28,6 +28,9 @@ public class App {
          * realizar operaciones básicas de manera creativa en programación.
          */
         int resultado = dataStructuresPrep.subtractAlgorithm(15, 5);
+        int multiplicacion = dataStructuresPrep.multiplyAlgorithm(5, 3);
+        int division = dataStructuresPrep.divideWAlgorithm(10, 2);
+        boolean numerPerfecto = dataStructuresPrep.isPerfectNumber(28);
 
         /*
          * Imprimir el resultado de la operación.
@@ -44,6 +47,9 @@ public class App {
          * parte de mensajes de salida o en lógicas de decisión más complejas.
          */
         System.out.println("El resultado de subtractAlgorithm  es: " + resultado);
+        System.out.println("El resultado de la multiplicacion es: " + multiplicacion);
+        System.out.println("El resultado de la division es: " + division);
+        System.out.println("El resultado del  numero Perfecto es: " + numerPerfecto);
 
     }
 }
