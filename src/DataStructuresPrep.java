@@ -83,9 +83,6 @@ public class DataStructuresPrep {
 
         int numPerfec = 0;
 
-        if (number <= 1) {
-            return false; 
-        }
         for(int i = 1; i <= number / 2; i++){
             if (number % i == 0){
                 numPerfec += 1;
