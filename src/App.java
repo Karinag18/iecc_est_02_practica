@@ -31,6 +31,11 @@ public class App {
         int multiplicacion = dataStructuresPrep.multiplyAlgorithm(5, 3);
         int division = dataStructuresPrep.divideWAlgorithm(10, 2);
         boolean numerPerfecto = dataStructuresPrep.isPerfectNumber(28);
+        int numberFactorial = dataStructuresPrep.getFactorial(5);
+        int numberMayor = dataStructuresPrep.findMaximum(new int[]{1, 5, 3, 6, 8, 2});
+        int numberPotencial = dataStructuresPrep.powerAlgorithm(2, 3);
+        boolean numberPrimo = dataStructuresPrep.isPrime(5);
+        int numberDigito = dataStructuresPrep.countDigits(12345);
 
         /*
          * Imprimir el resultado de la operación.
@@ -50,6 +55,11 @@ public class App {
         System.out.println("El resultado de la multiplicacion es: " + multiplicacion);
         System.out.println("El resultado de la division es: " + division);
         System.out.println("El resultado del  numero Perfecto es: " + numerPerfecto);
+        System.out.println("El resultado del numero factorial es: " + numberFactorial);
+        System.out.println("El numero mayor del arreglo es: " + numberMayor);
+        System.out.println("El resultado de la potencia es: " + numberPotencial);
+        System.out.println("El numero primo es: " + numberPrimo);
+        System.out.println("El numero de digitos son: " + numberDigito);
 
     }
 }
